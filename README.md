@@ -24,7 +24,7 @@ The scripts will :
 ## How to use
 
 1. Clone this github project
-2. If you have already built a binary for Bazel and a Python wheel for Tensorflow, restore them at the following locations :
+2. If you have already built a binary for Bazel and a Python wheel for Tensorflow, restore them at the following locations (You may also download my builds in the [release section](https://github.com/fdasilva59/DeepNano/releases/tag/2.0.0)) :
   - `/usr/local/bin/bazel`
   - `/opt/local/tmp/tensorflow_pkg/tensorflow-2.0.0-cp36-cp36m-linux_aarch64.whl`
 3. Review the script and eventually customize the installation
@@ -49,7 +49,7 @@ For convenience an alias `jl` has been define in the .bashrc  (`alias jl='(chrom
 
 A Jupyter Notebook is provided to experiment with Tensorflow 2.0 on the Jetson Nano and Coral Edge TPU.
 
-This notebook does not aim to serve as a benchmark. It is intended at exploring the possibilities/capabilities with this setup. It can also serves as a quick reference guide for using the tf.lite API. (Also remember that these devices are intended for inference. They are not designed for training. That being said, the hetsion Nano is not bad at training a rather basic Neural network!)
+This notebook does not aim to serve as a benchmark. It is intended at exploring the possibilities/capabilities with this setup. It can also serves as a quick reference guide for using the tf.lite API. (Also remember that these devices are intended for inference. They are not designed for training. That being said, the Jetson Nano is not bad at training a rather basic Neural network!)
 
 ## Copyright acknowledgements and usefull links
 
